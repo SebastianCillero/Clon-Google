@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #202124;
+    background-color: #fff;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+html,body {
+    min-width: 400px;
+}
+header {
+    display: flex;
+   justify-content: flex-end;
+   height: 48px;
+   padding: 6px;
+    position: relative;
+}
+header a {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #202124;
+    text-decoration: none;
+   box-sizing: border-box;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+.correo {
+    background: #1a73e8;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.correo, .dot-grid {
+    margin: 0 0 0 32px;
+}
+
+.correo, .dot-grid, a {
+    cursor: pointer;
+    position: relative; 
+    text-decoration: none;
+}
+.dot-grid:hover{
+    background-color:#f8f9fa;
+border-radius: 50%;
+}
+.correo:hover {
+    background-color: #1a6bd6;
+}
+.icono-google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 219px;
+    width: auto;
+}
+
+
+ div.icono-google #logo{
+    display: flex;
+ justify-content: center;
+    position: absolute;
+    bottom: 0;
+    object-position: center;
+     
+}
+section.parte-central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 142px;
+    padding: 20px;
+}
+
+#input-search {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 582px;
+    height: 46px;
+    transition: box-shadow 0.3s ease;
+}
+
+.fa-magnifying-glass {
+    z-index: 3;
+    color:  #9aa0a7;
+    padding: 10px;
+    position: absolute;
+    top: 35.2%;
+    left: 32%;
+    width: 20px;
+}
+
+
+#input-search:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+div.botones-busqueda{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0 auto;
+}
+
+#search, #lucky {
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f9fa;
+    box-shadow: none;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 30px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+#search:hover, #lucky:hover {
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+section.parte-baja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+height: 246px;
+}
+div.idioma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 28px;
+    font-size: small;
+    margin-bottom: 24px;
+   
+}
+
+.idioma, a {
+    padding: 0px 3px;
+    cursor: pointer; 
+}
+
+div.idioma a:hover {
+    text-decoration: underline;
+}
+
+ .Mexico {
+    height: 28px;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #202124;
+    justify-content: space-evenly;
+    background-color: #f2f2f3;
+
+ }
+ p {
+    vertical-align:middle; 
+    
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+height: 26px;
+background-color: #f2f2f3;
+border-color: #dadce0;
+
+
+}
+ a {
+    color: #202124;
+text-decoration: none;
+padding: 15px;
+font-size: 14px;
+}
+a:hover {
+    text-decoration: underline;
+    }
